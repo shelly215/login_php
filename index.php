@@ -25,7 +25,7 @@ background:-o-linear-gradient(top, #fff, #cdf1ff);  /*Opera 11.10+*/
 </head>
 
 <body>
-	<a class="btn" href="login.php">登陆</a>
-    <a class="btn" href="register.php">注册</a>
+	<a class="btn" href="./login.php">登陆</a>
+    <a class="btn" href="./register.php">注册</a>
 </body>
 </html>
