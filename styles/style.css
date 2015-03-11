@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* shenli 2014-10-28 */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px arial,\5b8b\4f53,sans-serif;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+a:link,a:visited{color:#0076fe;}
+sup{vertical-align:text-top;} sub{vertical-align:text-bottom;}
+img{border:0;} button,input,select,textarea{font-size:100%;} table{border-collapse:collapse;border-spacing:0;}
+img{border:0;-ms-interpolation-mode:bicubic;}
+.clearfix {*zoom:1;}
+.clearfix:before,.clearfix:after{display:table;line-height:0;content:"";}
+.clearfix:after {clear:both;}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+* html,* html body{background-image:url(about:blank);background-attachment:fixed}
+
+/* register.php*/
+.main{width:700px;height:631px;margin:0 auto; margin-top:60px;}
+.welcome{margin-left:10px; font-size:14px;color:#7b7b7b;}
+.register-table{margin-left:10px;font-size:12px;}
+.textbox{ width:168px; height:22px;border:1px solid #b0b0b0;}
+.alert{width:300px;height:20px; margin-left:10px; background-color:#fff3f3;padding-top:2px;}
+.alertpwd{width:120px;}
+.alertrepwd{width:180px;}
+.alertEmail{width:106px;}
+.success{margin-left:10px;}
+.prompt{color:#7b7b7b; padding-top:4px;}
+.introduction{
+	width:200px;
+	height:100px;}
+td{ padding-top:16px;}
+.alert img{float:left;display:inline;}
+.verify{height:22px;float:left;display:inline;margin-left:10px; font-size:22px;color:#6b6b6b; font-family:"MV Boli";text-align:center; line-height:22px; cursor:pointer;-webkit-user-select: none;}
+.btn{width:86px;height:28px;text-align:center; line-height:24px;border:1px solid #6eafd9;color:#0b6ac4;cursor:pointer;-webkit-user-select: none;
+FILTER:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#fff,endColorStr=#cdf1ff); /*IE 6 7 8*/ 
+background:-ms-linear-gradient(top, #fff,  #cdf1ff); /* IE 10 */
+background:-moz-linear-gradient(top,#fff,#cdf1ff);/*火狐*/ 
+background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#fff), to(#cdf1ff));/*谷歌*/ 
+background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#cdf1ff));/* Safari 4-5, Chrome 1-9*/
+background:-webkit-linear-gradient(top, #fff, #cdf1ff);/*Safari5.1 Chrome 10+*/
+background:-o-linear-gradient(top, #fff, #cdf1ff);  /*Opera 11.10+*/
+}
+/* end index.php*/
